@@ -1,0 +1,71 @@
+img {
+  width: 286.83px;
+  height: 238px;
+  display: block;
+  position: absolute;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 63.44%;
+  left: 11.73%;
+}
+header{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+}
+.message{
+  position: absolute;
+  top: 407px;
+  left: 24px;
+  width: 350px;
+}
+h1{
+  font-family: 'Space Mono', monospace;
+  font-size: 45px;
+  
+}
+p{
+  font-family: 'Space Mono', monospace;
+  font-weight: normal;
+}
+button{
+  background-color:#333333;
+  color: white;
+  width: 216px;
+  height: 68px;
+  font-family: 'Space Mono', monospace;
+}
+footer{
+  position: absolute;
+  bottom: 24px;
+  left: 46px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.underline{
+  text-decoration: underline #BDBDBD; 
+  font-weight: bold;
+  color: #BDBDBD;
+}
+
+@media (min-width: 768px) {
+  .message{
+    display: inline-block;
+    position: unset;
+    margin-top:165px;
+    margin-left: 9%;
+    margin-bottom: 24.5%;
+    width: 37%;
+  }
+
+  img{
+    display: inline-block;
+    position: unset;
+    height: 447px;
+    width: 36.36%;
+  }
+footer{
+  left: 40%;
+}
+}
